@@ -1,4 +1,4 @@
-import { Code } from "lucide-react";
+import { Badge, Code, ShoppingBag } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -14,27 +14,76 @@ export const AboutSection = () => {
             <p className="text-muted-foreground">
               I'm a student at Nation Univercity of Battambang (NUBB). I'm in
               the second semester of my second years, majoring in Imformation
-              Techology. 
+              Techology.
             </p>
             <p>
-                I chose Web developer as my main skill. I have studying
-              Web developer course at Master IT and Now I studying App Developer
-              at SalaIT.
+              I chose Web developer as my main skill. I have studying Web
+              developer course at Master IT and Now I studying App Developer at
+              SalaIT.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-                <a href="#contact" className="cosmic-button">Get In Touch</a>
-                <a href="#contact" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">Download CV</a>
+              <a href="#contact" className="cosmic-button">
+                Get In Touch
+              </a>
+              <a
+                href="#contact"
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              >
+                Download CV
+              </a>
             </div>
           </div>
           {/* Skill */}
           <div className="grid grid-cols-1 gap-6">
             <div className="gradient-border p-6 card-hover shadow-lg">
-                <div className="flex items-start gap-4">
-                    <div className="p-3 rounded-full bg-primary/10"><Code className="h-6 w-6 text-primary" /></div>
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Code className="h-6 w-6 text-primary" />
                 </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-xl underline">Website</h4>
+                  <p>
+                    I develop responsive, high-performance websites and
+                    applications with modern frameworks like React and Next.js.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="gradient-border p-6 card-hover shadow-lg"></div>
-            <div className="gradient-border p-6 card-hover shadow-lg"></div>
+
+            <div className="gradient-border p-6 card-hover shadow-lg">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Code className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-xl underline">
+                    Appliction
+                  </h4>
+                  <p>
+                    I’m currently expanding my skills in full-stack development
+                    by learning Flutter (for cross-platform mobile apps) and
+                    Laravel (for robust backend systems).
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="gradient-border p-6 card-hover shadow-lg">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <ShoppingBag className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-xl underline">
+                    Project Management
+                  </h4>
+                  <p>
+                    Leading projects from conception to completion with agile
+                    methodologies.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
