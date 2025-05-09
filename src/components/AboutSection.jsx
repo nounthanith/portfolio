@@ -1,3 +1,5 @@
+import { Code } from "lucide-react";
+
 export const AboutSection = () => {
   return (
     <section id="about" className="py-24 relative">
@@ -26,7 +28,11 @@ export const AboutSection = () => {
           </div>
           {/* Skill */}
           <div className="grid grid-cols-1 gap-6">
-            <div className="gradient-border p-6 card-hover shadow-lg"></div>
+            <div className="gradient-border p-6 card-hover shadow-lg">
+                <div className="flex items-start gap-4">
+                    <div className="p-3 rounded-full bg-primary/10"><Code className="h-6 w-6 text-primary" /></div>
+                </div>
+            </div>
             <div className="gradient-border p-6 card-hover shadow-lg"></div>
             <div className="gradient-border p-6 card-hover shadow-lg"></div>
           </div>
