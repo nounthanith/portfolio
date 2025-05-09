@@ -1,4 +1,5 @@
-import { Badge, Code, ShoppingBag } from "lucide-react";
+import { Code, ShoppingBag } from "lucide-react";
+import cv from "./../../public/docs/Cv.pdf";
 
 export const AboutSection = () => {
   return (
@@ -27,7 +28,8 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href="#contact"
+                href={cv}
+                download={cv}
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
