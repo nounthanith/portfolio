@@ -17,9 +17,10 @@ export const AboutSection = () => {
               Techology.
             </p>
             <p>
-              I chose Web developer as my main skill. I have studying Web
-              developer course at Master IT and Now I studying App Developer at
-              SalaIT.
+              I specialize in web development and have completed a professional
+              course at Master IT. Currently, I'm expanding my skills by
+              studying app development at SalaIT to become a versatile
+              full-stack developer.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
