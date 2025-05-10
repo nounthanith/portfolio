@@ -61,6 +61,16 @@ const projects = [
     demoUrl: "https://news-orpin-alpha.vercel.app/",
     gitHubUrl: "https://github.com/nounthanith/news",
   },
+  {
+    id: 7,
+    title: "Portfolio Project",
+    description:
+      "My portfolio that I create with tailwnd css and React+Vite.",
+    image: "/projects/Portfolio.png",
+    tags: ["JavaScript", "React", "Tailwind CSS"],
+    demoUrl: "https://portfolio-error.vercel.app/",
+    gitHubUrl: "https://github.com/nounthanith/portfolio-error",
+  },
 ];
 
 export const ProjectSection = () => {
