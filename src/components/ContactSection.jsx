@@ -1,18 +1,20 @@
 import { Facebook, Instagram, Mail, MapPin, Phone, Send } from "lucide-react";
 import { cn } from "../lib/utils";
 import { useToast} from "./../hooks/use-toast"
+import { useState } from "react";
 
 export const ContactSection = () => {
     const {toast} = useToast();
-
+    const [isSubmitting, setIsSubmitting] = useState(false)
     const handleSubmit = (e) => {
         e.preventDefault()
-
+        setIsSubmitting(true)
         setTimeout(()=>{
             toast({
                 title: "Message sent!",
                 description: "Thank you for your message. I'll get back to you soon."
             })
+            setIsSubmitting(false)
         }, 1500)
     }
   return (
@@ -151,11 +153,12 @@ export const ContactSection = () => {
 
             <button
               type="submit"
+              disabled={isSubmitting}
               className={cn(
                 "cosmic-button w-full flex items-center justify-center gap-2"
               )}
             >
-                Send Message
+                {isSubmitting ? "Sending..." : "Send Message"}
                 <Send size={16}/>
             </button>
           </form>
