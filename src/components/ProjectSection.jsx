@@ -27,7 +27,7 @@ const projects = [
     description:
       "A music website I created while learning Bootstrap and integrating APIs.",
     image: "/projects/MusicApp.png",
-    tags: ["JavaScript", "Bootstrap"],
+    tags: ["JavaScript", "Bootstrap", "React Js"],
     demoUrl: "https://music-rose-nu.vercel.app/",
     gitHubUrl: "https://github.com/nounthanith/music",
   },
