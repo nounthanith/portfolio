@@ -77,7 +77,7 @@ export const ContactSection = () => {
                     <a target="_blank" href="https://web.facebook.com/tha.nith.549"><Facebook /></a>
                     <a target="_blank" href="https://www.instagram.com/tonq_tong/"><Instagram /></a>
                     <a target="_blank" href="https://t.me/Nuon_Thanith"><Phone /></a>
-                    <p>Hllo</p>
+                    
                </div>
           </div>
         </div>
